@@ -1,4 +1,4 @@
-import { IPromoteStrategy } from "../dp/IPromoteStrategy";
+import { IPromoteStrategy } from "../core/IPromoteStrategy";
 
 export default class HalfDiscountStrategy implements IPromoteStrategy {
   public DoDiscount(price: number): number {

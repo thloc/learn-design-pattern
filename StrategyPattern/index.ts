@@ -1,8 +1,8 @@
 import Ticket from "./Ticket";
 
-import HalfDiscountStrategy from "./core/HalfDiscountStrategy";
-import NoDiscountStrategy from "./core/NoDiscountStrategy";
-import QuarterDiscountStrategy from "./core/QuarterDiscountStrategy";
+import HalfDiscountStrategy from "./dp/HalfDiscountStrategy";
+import NoDiscountStrategy from "./dp/NoDiscountStrategy";
+import QuarterDiscountStrategy from "./dp/QuarterDiscountStrategy";
 
 function main(): void {
   console.log("Start getting tickets!");
